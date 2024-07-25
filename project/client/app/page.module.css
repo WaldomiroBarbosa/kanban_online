@@ -1,0 +1,112 @@
+.main 
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.header 
+{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px;
+}
+
+.h_name 
+{
+  background-color: white;
+  color: #FFBD59;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.h_button 
+{
+  background-color: #FFBD59;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  flex: 0 0 auto;
+  align-self: center;
+  margin-right: 200px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-inline: 70px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.2s ease;
+}
+
+.h_button:hover 
+{
+  background-color: #ffd497; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+}
+
+.body 
+{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.b_box 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Alinha o conteúdo no centro */
+  flex: 1; /* Ocupa o espaço restante disponível */
+  object-fit: contain;
+}
+
+.b_text 
+{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.b_button 
+{
+  background-color: #FFBD59;
+  color: white;
+  font-size: 22px;
+  border-radius: 50px;
+  box-shadow: none;
+  border: none;
+  padding-inline: 110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 10px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.2s ease;
+}
+
+.b_button:hover 
+{
+  background-color: #ffd497; /* Muda a cor de fundo */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.b_icontainer 
+{ /* Ocupa o espaço restante disponível */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  align-items: center; /* Centraliza a imagem verticalmente */
+  overflow: hidden;
+}
+
+.image 
+{
+  max-width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
+  height: 100vh; /* Faz com que a imagem ocupe toda a altura do contêiner *//* Garante que a imagem preencha o contêiner sem distorção */
+  object-fit: fill;
+}

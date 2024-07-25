@@ -1,0 +1,98 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.log_box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBD59;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+}
+
+.log_title
+{
+    color: white;
+    font-size: 40px;
+    background-color: #FFBD59;
+    text-align: center;
+}
+
+.log_form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color:#FFBD59;
+    border-radius: 20px;
+}
+
+.log_input
+{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.log_input:focus
+{
+    outline: none;
+}
+
+.log_showpass
+{
+    background-color: #FFBD59;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.label
+{
+    background-color: #FFBD59;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.log_button
+{
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 26px;
+}
+
+.log_button:hover 
+{
+  background-color: rgb(252, 224, 182); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+}
+
+.log_foot
+{
+    background-color: #FFBD59;
+    text-align: center;
+}
+
+.link
+{
+    background-color: #FFBD59;
+}
